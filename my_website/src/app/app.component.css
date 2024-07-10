@@ -1,0 +1,44 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Font family for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f9; /* Light grey background color */
+}
+
+/* Main container styling */
+.main {
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+/* Header styling */
+.header {
+    background-color: #afafb0; /* Blue background color */
+    width: 100%; /* Full width */
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    padding: 15px 0; /* Vertical padding */
+}
+
+/* Styling for each navigation item */
+.header div {
+    color: #000000; /* White text color */
+    margin: 0 15px; /* Horizontal margin between items */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 18px; /* Font size */
+}
+
+/* Hover effect for navigation items */
+.header div:hover {
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Router outlet container styling */
+router-outlet {
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding around the content */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
